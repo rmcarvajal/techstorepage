@@ -1,0 +1,136 @@
+/* styles.css */
+
+/* Estilos básicos */
+
+
+
+@font-face { 
+    font-family: 'Nippo Variable';
+    src: url('fonts/Nippo-Variable.ttf') format('ttf');
+    font-weight: 1 1000; /* Ajusta según los pesos disponibles */
+    font-style: normal;
+}
+
+/* Estilos para el h2 centrado */
+.centered-heading {
+    text-align: center; /* Centra el texto horizontalmente */
+    color: white; /* Cambia el color del texto a blanco */
+    font-family: 'Nippo Variable', sans-serif; /* Aplica la fuente Nippo */
+    position: relative; /* Permite el uso de top para posicionamiento */
+    top: 185px; /* Posiciona el h2 a 185px del borde superior del contenedor */
+    margin-bottom: 24px; /* Añade margen inferior para separar del botón */
+}
+
+
+
+
+@font-face {
+    font-family: 'Amulya Variable';
+    src: url('fonts/Amulya-Variable.ttf') format('ttf');
+    font-weight: 1 1000; /* Ajusta según los pesos disponibles */
+    font-style: normal;
+}
+
+
+/* Estilos para el botón */
+.neon-button {
+    font-family: 'Amulya Variable', sans-serif; /* Aplica la fuente Amulya */
+    background-color: #009CBE; /* Color de fondo azul claro */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 15px 30px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: all 0.3s ease; /* Transición suave para el efecto */
+    box-shadow: 0 0 10px rgba(0, 156, 190, 0.5); /* Sombra inicial */
+    top:195px;
+    text-align: center;
+}
+
+/* Efecto de iluminación de neón al pasar el mouse */
+.neon-button:hover,
+.neon-button:focus {
+    box-shadow: 0 0 20px rgba(0, 156, 190, 1), 0 0 30px rgba(0, 156, 190, 0.7), 0 0 40px rgba(0, 156, 190, 0.5);
+    outline: none; /* Elimina el borde de enfoque */
+}
+
+/* Efecto de iluminación de neón al hacer clic */
+.neon-button:active {
+    box-shadow: 0 0 10px rgba(0, 156, 190, 1), 0 0 20px rgba(0, 156, 190, 0.7), 0 0 30px rgba(0, 156, 190, 0.5);
+}
+
+
+
+body {
+
+    
+    font-family:'Nippo Variable', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-image: url('back-100.jpg');
+    background-size:cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: fixed; /* fija la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+
+
+
+
+}
+
+header {
+    background-color: #120526;
+    padding: 1rem;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white; /* Contorno blanco */
+    border-radius: 10px;
+    padding: 1rem;
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+    box-sizing: border-box; /* Incluye el borde en el ancho total */
+    height: 90px;
+    overflow: hidden; /* Asegura que el contenido no se desborde */
+}
+
+.store-image {
+    width: 300px; /* Ajusta el tamaño según sea necesario */
+    height: 90;
+    max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    object-fit: contain; /* Ajusta la imagen para que se mantenga dentro del contenedor */
+}
+
+
+main {
+    padding: 1rem;
+}
+
+nav {
+
+list-style-type: none;
+padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 732px) {
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+}

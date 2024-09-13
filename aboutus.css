@@ -1,0 +1,78 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #120526;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Amulya Variable';
+    src: url('fonts/Amulya-Variable.ttf') format('ttf');
+    font-weight: 1 1000; /* Ajusta según los pesos disponibles */
+    font-style: normal;
+}
+
+p {
+    color: white;
+    font-family: 'Amulya Variable', sans-serif;
+}
+
+p1 {
+
+    color:white;
+    font-family: 'Amulya Variable', sans-serif;
+
+
+}
+
+
+
+header {
+    background-color: #120526;
+    padding: 1rem;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white; /* Contorno blanco */
+    border-radius: 10px;
+    padding: 1rem;
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+    box-sizing: border-box; /* Incluye el borde en el ancho total */
+    height: 90px;
+    overflow: hidden; /* Asegura que el contenido no se desborde */
+}
+
+.store-image {
+    width: 300px; /* Ajusta el tamaño según sea necesario */
+    height: 90;
+    max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    object-fit: contain; /* Ajusta la imagen para que se mantenga dentro del contenedor */
+}
+
+
+main {
+    padding: 1rem;
+}
+
+nav {
+
+list-style-type: none;
+padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
