@@ -1,4 +1,25 @@
 
+@font-face { 
+    font-family: 'Nippo Variable';
+    src: url('fonts/Nippo-Variable.ttf') format('ttf');
+    font-weight: 1 1000; /* Ajusta según los pesos disponibles */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Amulya Variable';
+    src: url('fonts/Amulya-Variable.ttf') format('ttf');
+    font-weight: 1 1000; /* Ajusta según los pesos disponibles */
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
 
 body {
     
@@ -35,6 +56,7 @@ body {
 .login-container h2 {
     color: white;
     margin-bottom: 20px;
+    font-family: 'Nippo Variable', sans-serif ;
 }
 
 .input-container {
