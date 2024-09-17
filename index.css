@@ -16,13 +16,11 @@
     text-align: center; /* Centra el texto horizontalmente */
     color: white; /* Cambia el color del texto a blanco */
     font-family: 'Nippo Variable', sans-serif; /* Aplica la fuente Nippo */
-    position: relative; /* Permite el uso de top para posicionamiento */
-    top: 185px; /* Posiciona el h2 a 185px del borde superior del contenedor */
     margin-bottom: 24px; /* Añade margen inferior para separar del botón */
 }
 
 
-
+/*position: relative; /* Permite el uso de top para posicionamiento */ /*top: 185px; /* Posiciona el h2 a 185px del borde superior del contenedor */
 
 @font-face {
     font-family: 'Amulya Variable';
@@ -30,6 +28,14 @@
     font-weight: 1 1000; /* Ajusta según los pesos disponibles */
     font-style: normal;
 }
+
+
+.content-section {
+    text-align: center; /* Centra el contenido horizontalmente */
+    position: relative; /* Permite el uso de top para posicionamiento */
+    top: 185px; /* Posiciona el contenido a 185px del borde superior */
+}
+
 
 
 /* Estilos para el botón */
@@ -46,6 +52,10 @@
     box-shadow: 0 0 10px rgba(0, 156, 190, 0.5); /* Sombra inicial */
     top:195px;
     text-align: center;
+    display: inline-block; /* Asegura que el botón se comporte como un bloque */
+    margin: 0 auto; /* Centra el botón horizontalmente */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    margin-bottom: 111px;
 }
 
 /* Efecto de iluminación de neón al pasar el mouse */
@@ -125,6 +135,46 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
+
+
+
+.offer-image-container {
+    position: relative;
+    text-align: center;
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    
+    justify-content: center; /* Centra el contenido horizontalmente */
+}
+
+.offer-image {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+
+}
+
+.learn-more {
+    position: absolute;
+    bottom: 70px; /* Ajusta según sea necesario */
+    left: 120px; /* Ajusta según sea necesario */
+    padding: 10px 20px;
+    background-color: #009cbe;
+    color: white;
+    font-family: 'Amulya Variable', sans-serif; /* Aplica la fuente Amulya */
+    font-size: 20px;
+    font-weight: medium;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+
+
+
 
 
 /* Estilos para dispositivos móviles */

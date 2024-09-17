@@ -14,6 +14,21 @@ body {
     font-style: normal;
 }
 
+@font-face { 
+    font-family: 'Nippo Variable';
+    src: url('fonts/Nippo-Variable.ttf') format('ttf');
+    font-weight: 1 1000; /* Ajusta según los pesos disponibles */
+    font-style: normal;
+}
+
+h2 {
+    color:white;
+    font-family: 'Nippo Variable', sans-serif;
+
+
+}
+
+
 p {
     color: white;
     font-family: 'Amulya Variable', sans-serif;
