@@ -34,7 +34,15 @@
     text-align: center; /* Centra el contenido horizontalmente */
     position: relative; /* Permite el uso de top para posicionamiento */
     top: 185px; /* Posiciona el contenido a 185px del borde superior */
+    margin-top: 100px;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
 }
+
+
+
+
 
 
 
@@ -85,6 +93,7 @@ body {
     display:flex;
     align-items: center;
     flex-direction: column;
+    height: 100vh;
 
 
 
@@ -194,9 +203,117 @@ nav ul li a {
 }
 
 
+.product-container {
+    background-color:#120526; /* Violeta oscuro */
+    border: 2px solid white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 800px;
+    position: relative;
+    margin-top: 50px;
+   
+}
+
+.recently-added {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    color: #009CBE; /* Azul claro */
+    border-color: white;
+    padding: 5px 10px;
+    font-family: 'Nippo Variable', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.triangle-left, .triangle-right {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.product-image {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.product-name {
+    color: white;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.product-price {
+    color: white;
+    font-size: 20px;
+}
 
 
+.sellers-container {
 
+background-color:#120526; /* Violeta oscuro */
+    border: 2px solid white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 800px;
+    position: relative;
+    margin-top: 50px;
+   
+
+}
+
+
+.bestsellers {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    color: #009CBE; /* Azul claro */
+    border-color: white;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Nippo Variable', sans-serif;
+    margin-bottom: 20px;
+
+
+}
+
+
+.sellers-content {
+
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+
+}
 
 
 

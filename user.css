@@ -1,0 +1,223 @@
+
+@font-face { 
+    font-family: 'Nippo Variable';
+    src: url('fonts/Nippo-Variable.ttf') format('ttf');
+    font-weight: 1 1000; /* Ajusta según los pesos disponibles */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Amulya Variable';
+    src: url('fonts/Amulya-Variable.ttf') format('ttf');
+    font-weight: 1 1000; /* Ajusta según los pesos disponibles */
+    font-style: normal;
+}
+
+header {
+    background-color: #120526;
+    padding: 1rem;
+    display:flex;
+    justify-content:center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white; /* Contorno blanco */
+    border-radius: 10px;
+    padding: 1rem;
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+    box-sizing: border-box; /* Incluye el borde en el ancho total */
+    height: 90px;
+    overflow: hidden; /* Asegura que el contenido no se desborde */
+    position: fixed;
+    z-index: 99;
+    top: 0px;
+    background-color: #120526;
+}
+
+.store-image {
+    width: 300px; /* Ajusta el tamaño según sea necesario */
+    height: 90;
+    max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    object-fit: contain; /* Ajusta la imagen para que se mantenga dentro del contenedor */
+}
+
+
+main {
+    padding: 1rem;
+    z-index: 12;
+}
+
+nav {
+    display:flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content:flex-end;
+    align-items: center;
+    flex-direction: row;
+    height:77px;
+    width:262px;
+    
+    }
+    nav ul{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: row;
+
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 1rem;
+        padding:4px;
+    }
+    
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    
+    }
+.spacer{
+        height:100px;
+        z-index: 12;
+        margin-top: 550px;
+    }
+
+
+
+
+
+
+
+
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:'Nippo Variable', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-image: url('./userfont-100.jpg');
+    background-size:cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: fixed; /* fija la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+
+
+
+
+}
+
+
+
+
+
+
+.Welcome-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos horizontalmente */
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+
+
+.welcome-container {
+    background-color: #120526; /* Violeta oscuro */
+    border: 2px solid white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    color: white;
+}
+
+.user-icon {
+    font-size: 100px; /* Tamaño del ícono de usuario */
+    margin-bottom: 20px;
+    margin-top: 30px;
+    justify-content: center;
+    color: white;
+}
+
+.user-info {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.user-info hr {
+    border: 0;
+    height: 1px;
+    background: white;
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-family: 'Nippo Variable', sans-serif;
+    font-weight: normal;
+    color: aqua;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    font-family: 'Nippo Variable', sans-serif;
+    font-weight: normal;
+    color: aqua;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 5px 0;
+    font-family: 'Amulya Variable', sans-serif;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    font-size: 30px;
+    margin: 10px 0;
+    font-family: 'Nippo Variable', sans-serif;
+    font-weight: normal;
+    color: aqua;
+
+}
+
+
+.info {
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin-top: 20px; 
+    justify-content: flex-start;
+}
+
+.info hr {
+
+    border: 0;
+    height: 1px;
+    background: white;
+    margin: 20px 0;
+
+
+}
+
+.info h3 {
+    display: flex;
+    align-items: center;
+}
+
+.info .icon {
+    width: 80px; /* Ajusta el tamaño del ícono */
+    margin-right: 10px; /* Espacio entre el ícono y el texto */
+}
+
+
