@@ -14,14 +14,14 @@ body {
 
 @font-face { 
     font-family: 'Nippo Variable';
-    src: url('fonts/Nippo-Variable.ttf') format('ttf');
+    src: url('./fonts/Nippo-Variable.ttf') format('ttf');
     font-weight: 1 1000; /* Ajusta según los pesos disponibles */
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Amulya Variable';
-    src: url('fonts/Amulya-Variable.ttf') format('ttf');
+    src: url('./fonts/Amulya-Variable.ttf') format('ttf');
     font-weight: 1 1000; /* Ajusta según los pesos disponibles */
     font-style: normal;
 }
@@ -142,4 +142,8 @@ nav {
     display:flex;
     width:100%;
 }
+a{
+    color:#FFFFFF;
+    text-decoration: none;
+}  
 
